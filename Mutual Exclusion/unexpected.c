@@ -19,6 +19,7 @@ void* f_thread_0(void *v) {
 
 void* f_thread_1(void *v) {
   s = 1;
+  sleep(3);
   printf("Thread 1, s = %d.\n", s); 
   
   return NULL;
